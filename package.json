@@ -1,5 +1,5 @@
 {
-  "name": "home-storage-inventory-ms",
+  "name": "nextjs-aws-stack-template",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
@@ -7,6 +7,9 @@
     "backend"
   ],
   "scripts": {
+    "dev": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "cdk": "npm run cdk -w backend --",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
